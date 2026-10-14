@@ -52,6 +52,27 @@ play_espanol.bat
 
 ---
 
+## 🃏 Cómo iniciar con todas las cartas desbloqueadas (722 cartas)
+
+El juego ya incluye una opción integrada para darte todas las cartas sin necesidad de programas externos:
+
+### Opción A (La más fácil: Desde el menú del juego en 1 clic):
+1. Inicia una **Nueva Partida** (o carga tu partida).
+2. Pasa la escena introductoria hasta llegar al mapa de la ciudad o menú principal.
+3. Presiona **F10** para desplegar la barra de menús superior.
+4. Ve a **Game > Cheats**:
+   * Haz clic en **Give 3 of every card** (Te añade 3 copias de cada una de las 722 cartas al baúl).
+   * Haz clic en **Unlock all Free Duel CPU duelists** (Desbloquea todos los duelistas en Duelo Libre).
+   * Haz clic en **Set StarChips to 999999** (Te da 999,999 estrellas para contraseñas).
+5. Ve a **SAVE** en el juego para guardar la partida y tus cartas quedarán registradas para siempre.
+
+### Opción B (Importar una partida de emulador de PS1):
+Si tienes una Memory Card de DuckStation, ePSXe o RetroArch con el 100% completado (archivos `.mcr`, `.mcd`, `.srm`, `.gme`):
+1. Copia el archivo dentro de la carpeta `saves\` (`Documents\My Games\YFM Re-Decomp\saves\`).
+2. En el menú de inicio del juego selecciona **LOAD** y el juego importará la partida automáticamente.
+
+---
+
 ## 🎮 Controles en PC
 
 | Botón de PlayStation | Teclado | Mando (Xbox / PS / Genérico) |
