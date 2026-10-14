@@ -24,3 +24,4 @@
 # Tool-generated language caches
 **/__pycache__/
 *.py[cod]
+*.dylib

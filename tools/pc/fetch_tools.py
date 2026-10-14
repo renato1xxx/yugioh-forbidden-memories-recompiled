@@ -43,7 +43,8 @@ def download(url, digest):
     if not os.path.exists(path):
         os.makedirs(os.path.dirname(path), exist_ok=True)
         print(f"fetch {url}", flush=True)
-        with urllib.request.urlopen(url, timeout=300) as response, open(path + ".part", "wb") as handle:
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)"})
+        with urllib.request.urlopen(req, timeout=300) as response, open(path + ".part", "wb") as handle:
             shutil.copyfileobj(response, handle)
         os.replace(path + ".part", path)
     sha = hashlib.sha256()
